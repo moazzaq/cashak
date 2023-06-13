@@ -22,7 +22,7 @@
             </li>
             <li><a href="" class="ai-icon" aria-expanded="false">
                     <i class="flaticon-025-dashboard"></i>
-                    <span class="nav-text">Dashboard</span>
+                    <span class="nav-text">الرئيسية</span>
                 </a>
             </li>
             <li><a href="{{route('discount.index')}}" class="ai-icon" aria-expanded="false">
@@ -36,7 +36,7 @@
                    document.getElementById('logout-form').submit();"
                     class="ai-icon" aria-expanded="false">
                     <i class="flaticon-013-checkmark"></i>
-                    <span class="nav-text">{{ __('Logout') }}</span>
+                    <span class="nav-text">تسجيل الخروج</span>
                 </a>
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                     @csrf

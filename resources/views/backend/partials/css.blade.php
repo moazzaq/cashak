@@ -1,4 +1,5 @@
-<link rel="shortcut icon" type="image/png" href="{{asset('backend')}}/images/favicon.png" />
+<!--favicon icon-->
+<link rel="icon" href="{{asset('website')}}/img/favicon.png" type="image/png" sizes="16x16">
 
 <link href="{{asset('backend')}}/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
 <link rel="stylesheet" href="{{asset('backend')}}/vendor/nouislider/nouislider.min.css">
